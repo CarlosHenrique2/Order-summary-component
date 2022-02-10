@@ -2,8 +2,8 @@ import react from "react";
 import Button from "../../Component/Button";
 import Change from "../../Component/Change";
 import Typography from "../../Component/Typography";
-import img from "../../asseats/icon/illustration-hero.svg";
-import music from "../../asseats/icon/icon-music.svg";
+import img from "../../assets/icon/illustration-hero.svg";
+import music from "../../assets/icon/icon-music.svg";
 
 import "./style.css";
 
@@ -25,23 +25,26 @@ const SummaryCard: React.FC<SummaryCardProbs> = ({
       <div className="summaryCard__image">
         <img src={img} alt="" />
       </div>
-      <div>
+      <div className="summaryCard__content">
         <Typography label="Order Summary" variant="title" />
-      </div>
-      <div className="">
-        <img src="" alt="" />
         <Typography
           label="You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!"
           variant="paragraph"
         />
-        <Typography label="Annual Plan" variant="subtitle" />
-        <Typography label="$59.99/year" variant="paragraph" />
-        <a href="">Change</a>
-        <img src={music} alt="" />
-      </div>
-      <div className="summaryCard__button">
-        <Button label="Proceed to Payment" />
-        <Button label="Cancel Order" />
+        <div className="summaryCard__content__billing_info">
+          <img src={music} alt="" />
+          <div className="summaryCard__content__billing_info__description">
+            <Typography label="Annual Plan" variant="subtitle" />
+            <Typography label="$59.99/year" variant="paragraph" />
+          </div>
+          <a className="summaryCard__link" href="">
+            Change
+          </a>
+        </div>
+        <div className="summaryCard__button">
+          <Button variant="contained" label="Proceed to Payment" />
+          <Button variant="outlined" label="Cancel Order" />
+        </div>
       </div>
     </div>
   );

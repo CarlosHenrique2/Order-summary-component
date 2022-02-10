@@ -1,0 +1,13 @@
+button {
+  height: 2rem;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+button--contained {
+}
+
+button--outlined {
+  outline: none;
+}
