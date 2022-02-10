@@ -1,10 +1,30 @@
-.conteiner__summaryCard {
+.summaryCard {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   border-radius: 10px;
   height: 500px;
   width: 350px;
   background: gray;
+}
+
+.summaryCard__image {
+  width: 100%;
+}
+
+.summaryCard__image > img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.summaryCard__button {
+  display: flex;
+  flex-direction: column;
+}
+
+.summaryCard__button > button {
+  margin-bottom: 10px;
 }

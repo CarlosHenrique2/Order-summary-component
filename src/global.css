@@ -1,6 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Outfit', sans-serif;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "red hat", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+p {
+  color: hsl(225, 100%, 94%);
+}
+
+button {
+  background: hsl(225, 100%, 94%);
+}
