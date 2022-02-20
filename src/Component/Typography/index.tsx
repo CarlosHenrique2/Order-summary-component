@@ -1,5 +1,3 @@
-import react from "react";
-
 import "./style.css";
 
 interface TypographyProps {
@@ -8,7 +6,6 @@ interface TypographyProps {
 }
 
 const Typography: React.FC<TypographyProps> = ({ label, variant }) => {
-  let content = null;
   if (variant === "title") {
     return <h1 className={"title"}>{label}</h1>;
   }

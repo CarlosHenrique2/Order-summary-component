@@ -1,7 +1,4 @@
-import react from "react";
 import SummaryCard from "../../Container/SummaryCard";
-import backgroundDesktop from "../../assets/icon/pattern-background-desktop.svg";
-import backgroundMobile from "../../assets/icon/pattern-background-mobile.svg";
 
 import "./style.css";
 
