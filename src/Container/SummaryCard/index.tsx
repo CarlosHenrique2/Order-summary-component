@@ -35,7 +35,9 @@ const SummaryCard: React.FC<SummaryCardProbs> = ({
             <Typography label="Annual Plan" variant="subtitle" />
             <Typography label="$59.99/year" variant="paragraph" />
           </div>
-          <a className="summaryCard__link">Change</a>
+          <a className="summaryCard__link" href="#">
+            Change
+          </a>
         </div>
         <div className="summaryCard__button">
           <Button variant="contained" label="Proceed to Payment" />
