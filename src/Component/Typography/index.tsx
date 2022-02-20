@@ -10,12 +10,12 @@ interface TypographyProps {
 const Typography: React.FC<TypographyProps> = ({ label, variant }) => {
   let content = null;
   if (variant === "title") {
-    return <h1 className={"title-"}>{label}</h1>;
+    return <h1 className={"title"}>{label}</h1>;
   }
   if (variant === "subtitle") {
-    return <p className={"subtitle-"}>{label}</p>;
+    return <p className={"subtitle"}>{label}</p>;
   }
-  return <p className={"paragraph-"}>{label}</p>;
+  return <p className={"paragraph"}>{label}</p>;
 };
 
 export default Typography;

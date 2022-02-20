@@ -4,14 +4,6 @@
   font-family: "red hat", sans-serif;
 }
 
-p {
-  font-size: 16px;
-}
-
-p {
-  color: hsl(225, 100%, 94%);
-}
-
 button {
   background: hsl(225, 100%, 94%);
 }

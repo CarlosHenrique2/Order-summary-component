@@ -5,9 +5,17 @@ button {
   border: none;
 }
 
-button--contained {
+.button--contained {
+  border-radius: 6px;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
 }
 
-button--outlined {
+.button--outlined {
   outline: none;
+  border: none;
+  background: transparent;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
 }

@@ -1,21 +1,15 @@
-.paragraph-red {
-  color: green;
+.paragraph {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
   font-size: 16px;
 }
 
-.paragraph-blue {
-  /* color: blue; */
-  color: green;
+.subtitle {
+  font-weight: 700;
 }
 
-.title-blue {
-  color: green;
-}
-
-.title-red {
-  color: green;
-}
-
-.label {
-  color: green;
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
 }
